@@ -1,17 +1,22 @@
-require 'pry'
-
 class Dog
-    #setter for name
-    def name = (name)
-        @name = name
+    # SETTER
+    def name=(name)
+      @name = name
     end
-    #getter method
+  
+    # GETTER
     def name
-        @name
+      @name
     end
-
-    # 
-    def  breed =(breed)
-        @breed = breed
+  
+    # SETTER
+    def breed=(breed)
+      @breed = breed
     end
+  
+    # GETTER
+    def breed
+      @breed
+    end
+  
 end
